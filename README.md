@@ -3,4 +3,4 @@
 
 | SNO | BRANCH | NAME |
 | ----------- | ----------- | ----------- |
-| 1 | [Saikrishna](Link) | Sai Krishna |
+| 1 | [Saikrishna](https://github.com/itgurukulamA/ITG140one/tree/SaikrishnaBendalam-5017) | Sai Krishna |
