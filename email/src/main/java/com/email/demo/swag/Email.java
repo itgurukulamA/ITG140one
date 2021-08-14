@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 
 public class Email {
-private String email;
+
 private String emessage;
 private String subject;
 private String to;

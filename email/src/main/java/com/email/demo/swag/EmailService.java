@@ -18,7 +18,7 @@ public class EmailService {
 public String sendMail(Email email) {
 	SimpleMailMessage message = new SimpleMailMessage(); 
   
-    message.setTo(email.getEmail()); 
+    message.setTo(email.getTo()); 
     message.setSubject(email.getSubject()); 
     message.setText(email.getEmessage());
     try {
@@ -34,14 +34,13 @@ public String sendMailAttachachment(Email email) throws MessagingException {
      
 	    MimeMessageHelper helper = new MimeMessageHelper((javax.mail.internet.MimeMessage) message, true);
 	    
-	    helper.setFrom(email.getEmail());
 	    helper.setTo(email.getTo());
 	    helper.setSubject(email.getSubject());
-	    helper.setText(email.getMessage());
+	    helper.setText(email.getEmessage());
 	        
 	    FileSystemResource file 
-	      = new FileSystemResource(new File("D:\\Workspace\\springboot\\email\\src\\main\\java\\com\\email\\demo"));
-	    helper.addAttachment("Invoice", file);
+	      = new FileSystemResource(new File("D:\\Workspace\\springboot\\email\\src\\main\\java\\com\\email\\demo\\test.txt"));
+	    helper.addAttachment(email.getAttachname(), file);
 	    try {
 	    	emailSender.send(message);
 	    }catch(Exception e){
