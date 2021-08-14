@@ -1,8 +1,1 @@
-08-13-2021 11:19:07 DEBUG o.s.jdbc.core.JdbcTemplate (958) : Executing prepared SQL update
-08-13-2021 11:19:07 DEBUG o.s.jdbc.core.JdbcTemplate (643) : Executing prepared SQL statement [insert into jdbc (name,gmail,age,phone) values(?,?,?,?)]
-08-13-2021 11:19:07 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
-08-13-2021 11:19:07 TRACE o.s.jdbc.core.StatementCreatorUtils (221) : Setting SQL statement parameter value: column index 1, parameter value [saikrishna], value class [java.lang.String], SQL type unknown
-08-13-2021 11:19:07 TRACE o.s.jdbc.core.StatementCreatorUtils (221) : Setting SQL statement parameter value: column index 2, parameter value [sm], value class [java.lang.String], SQL type unknown
-08-13-2021 11:19:07 TRACE o.s.jdbc.core.StatementCreatorUtils (221) : Setting SQL statement parameter value: column index 3, parameter value [24], value class [java.lang.Integer], SQL type unknown
-08-13-2021 11:19:07 TRACE o.s.jdbc.core.StatementCreatorUtils (221) : Setting SQL statement parameter value: column index 4, parameter value [2213], value class [java.lang.Integer], SQL type unknown
-08-13-2021 11:19:07 TRACE o.s.jdbc.core.JdbcTemplate (967) : SQL update affected 1 rows
+08-14-2021 23:07:02 WARN  com.zaxxer.hikari.pool.HikariPool (788) : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m10s72ms528µs100ns).

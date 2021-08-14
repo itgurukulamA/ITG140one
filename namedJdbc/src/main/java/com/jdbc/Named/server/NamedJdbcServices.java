@@ -3,7 +3,8 @@ package com.jdbc.Named.server;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.log4j.Logger;
+
+import org.slf4j.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -14,8 +15,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class NamedJdbcServices {
 	@Autowired NamedParameterJdbcTemplate npjt ;
-	static Logger Log =Logger.getLogger(NamedJdbcServices.class);
+	 final Logger Log = LoggerFactory.getLogger(NamedJdbcServices.class);
 	public Map<String,String> insert(NamedJdbc namedjdbc) {
+		
 		Map<String,String> m=new HashMap<String, String>();
 		String sql ="insert into jdbc (name,gmail,age,phone) values(:name,:gmail,:age,:phone)";
 		Log.info("******************************************");
@@ -33,6 +35,42 @@ public class NamedJdbcServices {
 			}
 			
 		
+		return m;
+	}
+	public Map<String, String> update(NamedJdbc nja) {
+		Map<String,String> m=new HashMap<String, String>();
+		String sql ="update jdbc set ";
+		
+		if(nja.getName()!=null) {
+			String sql1 ="name = :Name,";
+			sql=sql+sql1;
+		}if(nja.getAge()!=0 ) {
+			String sql1 ="age = :Age,";
+			sql=sql+sql1;
+		}
+		if(nja.getGmail()!=null) {
+			String sql1 ="gmail = :Gmail,";
+			sql=sql+sql1;
+		}
+		if(nja.getPhone()!=0){
+			String sql1 ="phone = :Phone,";
+			sql=sql+sql1;
+		}
+		sql=sql.substring(0,sql.length()-1);
+		sql=sql+" where id ="+nja.getId();
+		Log.info("******************************************");
+			SqlParameterSource par = new MapSqlParameterSource()
+					.addValue("Gmail",nja.getGmail())
+					.addValue("Phone", nja.getPhone())
+					.addValue("Age",nja.getAge())
+					.addValue("Name", nja.getName());
+			int result=npjt.update(sql,par);
+			if(result>0) {
+				Log.info("Success");
+				m.put("success", "Data Updated Succesfully");
+			}else {
+				m.put("failed", "Data Failed to Update");
+			}
 		return m;
 	}
 		
