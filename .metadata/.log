@@ -1,0 +1,2017 @@
+!SESSION 2021-08-13 10:22:36.411 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-13 10:23:25.873
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-13 10:23:25.873
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f4545c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@482942d8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-08-13 10:36:27.326
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-13 10:39:30.221
+!MESSAGE Has main method computation for project 'kdk'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:31.970
+!MESSAGE Has main method computation for project 'kdk'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:44.956
+!MESSAGE Has main method computation for project 'kdk'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:46.633
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:46.634
+!MESSAGE Has main method computation for project 'kdk'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:47.301
+!MESSAGE Has main method computation for project 'kdk'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:47.327
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:47.466
+!MESSAGE Has main method computation for project 'kdk'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:47.498
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:47.817
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:49.647
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:39:50.025
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:39:50.345
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:39:52.385
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:39:53.896
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:39:55.365
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:39:56.907
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:39:58.494
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:00.013
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:01.481
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:03.681
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:05.213
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:07.217
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:09.016
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:11.569
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:14.298
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:16.777
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:20.018
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY Activator 1 0 2021-08-13 10:40:21.061
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:40:21.184
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:21.247
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY Activator 1 0 2021-08-13 10:40:21.865
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:40:22.052
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:40:22.328
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:40:22.435
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:23.033
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:24.790
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:26.529
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:27.960
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:29.409
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:31.304
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:33.102
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:34.563
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:37.586
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:39.141
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:40.352
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:42.137
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY Activator 1 0 2021-08-13 10:40:43.069
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:40:43.082
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:43.609
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:45.098
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:46.665
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:48.161
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:49.865
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:51.609
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:53.805
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:56.612
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:58.469
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:40:59.913
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:01.419
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:02.878
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:04.273
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:06.833
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:08.233
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:10.509
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.474
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.486
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.493
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.497
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.501
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.504
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.507
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.509
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.512
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.517
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.519
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.521
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.523
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.524
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.526
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.528
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.530
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.531
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.533
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.536
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.538
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.541
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.543
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.544
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.546
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.548
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.550
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.551
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.554
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.555
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.557
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.558
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.561
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.562
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.564
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.566
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.568
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.570
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.571
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.573
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.574
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.577
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.578
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.580
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.583
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.584
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.586
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.588
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.589
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.591
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.593
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.594
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.596
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.598
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.600
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.602
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.604
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.605
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.609
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.610
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.613
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.614
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.616
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.617
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.619
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.621
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.624
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.626
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.627
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.629
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.630
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.632
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.633
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.639
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.640
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.642
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.643
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.645
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.647
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.649
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.651
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.653
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.656
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.659
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.661
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.662
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.664
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.665
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.667
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.668
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.670
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.671
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.675
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.677
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.678
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.680
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.681
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.683
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.685
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.686
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.688
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.692
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.694
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.695
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.697
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.698
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.700
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.702
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.703
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.704
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.708
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.710
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.711
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.713
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.714
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.716
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.717
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.719
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.720
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.722
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.726
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.727
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.728
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.730
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.731
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.733
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.735
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.736
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.738
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.741
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.743
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.744
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.746
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.747
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.748
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.750
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.751
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.753
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.754
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.758
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.759
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.761
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.762
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.764
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.765
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.766
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.768
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.770
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.771
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.775
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.776
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.778
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.779
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.780
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.782
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.783
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.785
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.786
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.788
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.792
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.793
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.795
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.796
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.798
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-13 10:41:12.799
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/kdk
+
+!ENTRY Activator 1 0 2021-08-13 10:41:13.233
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:41:13.249
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 10:41:13.442
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 10:41:13.476
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:49:24.575
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:24.594
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:24.595
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6fbefb07[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=553)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:24.598
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2021-08-13 10:49:24.605
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:24.682
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-13 10:49:25.194
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 10:49:25.195
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:49:25.471
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:49:25.473
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.698
+!MESSAGE Boot LS startup time from start to initialized: 3083ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.787
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iezlrbgDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.790
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.791
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.791
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.792
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iezlrbgD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.794
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.796
+!MESSAGE classpath=58 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.797
+!MESSAGE buffering callback sts4.classpath.iezlrbgD kdk-2 false 58
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.805
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.806
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.807
+!MESSAGE buffering callback sts4.classpath.iezlrbgD kdk-1 false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:27.807
+!MESSAGE executing callback sts4.classpath.iezlrbgD 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 10:49:28.156
+!MESSAGE executing callback sts4.classpath.iezlrbgD SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-13 10:49:52.464
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:49:52.469
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 10:49:53.066
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:49:53.067
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 10:50:12.165
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 10:50:12.165
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:50:12.732
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 10:50:12.751
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-13 11:14:58.266
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-13 11:17:47.874
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-13 11:18:21.301
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-13 12:13:45.568
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:13:45.577
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:13:46.170
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:13:46.215
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:14:00.977
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:14:00.978
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:14:01.566
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:14:01.599
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:14:56.378
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:14:56.389
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:06.318
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:06.329
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:27.979
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:27.989
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:28.033
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:28.035
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:28.079
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:28.102
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:28.161
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:28.171
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:29.073
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:29.075
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:29.159
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:29.211
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:29.227
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:22:29.304
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:36:51.854
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:36:51.854
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:36:52.084
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:36:52.084
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:21.468
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:21.475
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:31.240
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:31.240
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:31.242
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:31.243
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:31.243
+!MESSAGE buffering callback sts4.classpath.iezlrbgD kdk-2 false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:31.243
+!MESSAGE executing callback sts4.classpath.iezlrbgD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:31.269
+!MESSAGE executing callback sts4.classpath.iezlrbgD SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-13 12:41:32.233
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:32.357
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:32.495
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:32.496
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:40.108
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:40.110
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:40.110
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:40.111
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:40.111
+!MESSAGE buffering callback sts4.classpath.iezlrbgD kdk-2 false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:40.111
+!MESSAGE executing callback sts4.classpath.iezlrbgD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:41:40.126
+!MESSAGE executing callback sts4.classpath.iezlrbgD SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-13 12:41:40.236
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:41:40.247
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-13 12:52:53.787
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.getLineInformation(BasicStructuredDocument.java:1461)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:180)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.run(LSPDiagnosticsToMarkers.java:147)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarkers(LSPDiagnosticsToMarkers.java:162)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.accept(LSPDiagnosticsToMarkers.java:83)
+	at org.eclipse.lsp4e.LanguageClientImpl.publishDiagnostics(LanguageClientImpl.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+!ENTRY Activator 1 0 2021-08-13 12:52:53.789
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:52:53.800
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:52:58.828
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:52:58.833
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:53:01.162
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:53:01.163
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:53:01.818
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:53:01.819
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:01.821
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:01.822
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:01.823
+!MESSAGE buffering callback sts4.classpath.iezlrbgD kdk-2 false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:01.823
+!MESSAGE executing callback sts4.classpath.iezlrbgD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:01.840
+!MESSAGE executing callback sts4.classpath.iezlrbgD SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-13 12:53:03.244
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 12:53:03.253
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 12:53:05.961
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:05.963
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-13 12:53:05.964
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:05.964
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:05.964
+!MESSAGE buffering callback sts4.classpath.iezlrbgD kdk-2 false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:05.964
+!MESSAGE executing callback sts4.classpath.iezlrbgD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 12:53:05.979
+!MESSAGE executing callback sts4.classpath.iezlrbgD SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2021-08-13 13:03:05.213
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4893)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.SWT.error(SWT.java:4779)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1520)
+	at org.eclipse.swt.widgets.Display.checkDevice(Display.java:967)
+	at org.eclipse.swt.widgets.Display.getShells(Display.java:2789)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:76)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5871)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:209)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+!SESSION 2021-08-13 14:01:32.589 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-13 14:01:36.675
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-08-13 14:01:42.610
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-13 14:01:42.610
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e5c52fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@614361fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:01:51.654
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:01:51.654
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4e4f830b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=553)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:01:51.656
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:01:51.860
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.040
+!MESSAGE Boot LS startup time from start to initialized: 11334ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.892
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FlLsHjGhisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.901
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.906
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.907
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.908
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FlLsHjGh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.913
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.947
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.948
+!MESSAGE buffering callback sts4.classpath.FlLsHjGh kdk-2 false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.949
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.963
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.964
+!MESSAGE buffering callback sts4.classpath.FlLsHjGh kdk-1 false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:03.964
+!MESSAGE executing callback sts4.classpath.FlLsHjGh 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:02:05.263
+!MESSAGE executing callback sts4.classpath.FlLsHjGh SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-13 14:02:23.278
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:02:23.288
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:02:24.636
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:02:24.644
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:16:07.709
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:16:07.713
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:16:09.373
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:16:09.375
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:16:12.638
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:16:12.639
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:16:12.836
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:27:24.100
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:27:24.101
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:27:24.792
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:27:24.825
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:34:47.954
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:34:47.955
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:34:48.585
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:34:48.616
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:01.374
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:01.376
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:01.946
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:01.978
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:40.500
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:40.501
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:41.092
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:41.126
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:44.008
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:44.008
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:44.601
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 14:37:44.603
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:05.658
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:05.667
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:07.494
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:07.495
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:07.596
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:07.635
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:07.645
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:07.701
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:07.716
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:09.074
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:09.077
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:09.148
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:09.180
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:09.724
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:53:09.725
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:07.731
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:07.732
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:07.823
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:07.853
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:07.867
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:07.908
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:13.340
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:13.341
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:13.410
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:13.437
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:13.564
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:13.565
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:14.136
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:14.136
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:14.224
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:14.239
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:14.623
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:54:14.629
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:09.588
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:09.589
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:09.660
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:09.671
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:09.786
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:09.786
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:19.790
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:19.793
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:19.837
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:19.863
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:19.948
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:19.948
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:23.656
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:23.659
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:23.716
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:23.743
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:23.803
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:23.803
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:24.499
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:24.500
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:24.557
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:24.583
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:24.856
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:24.857
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:25.441
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:25.446
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:25.542
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:25.548
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:25.860
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:25.862
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:27.901
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:27.901
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:27.963
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:27.965
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:28.023
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:28.023
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:32.889
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:32.889
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:32.944
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:32.984
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:32.987
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:33.103
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:33.111
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:42.254
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:42.256
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:42.309
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:42.319
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:42.368
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:42.373
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:43.691
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:43.691
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:43.760
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:43.768
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:43.834
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:55:43.836
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:57:30.072
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 17:57:30.073
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:57:30.616
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 17:57:30.623
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-13 18:00:05.261
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-13 18:05:48.144
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:05:48.145
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:05:49.423
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:05:49.423
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:05:49.497
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:05:49.498
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:05:49.616
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:05:49.623
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:09.207
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:09.244
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:09.288
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:09.299
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:09.354
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:09.358
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:10.317
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:10.319
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:10.370
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:10.397
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:10.409
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:10.488
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:28:10.488
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:29:39.834
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:29:39.851
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:29:40.433
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:29:40.438
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:30:59.336
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:30:59.337
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:31:00.639
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:31:00.641
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:53:10.317
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:53:10.320
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:53:10.919
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:53:10.937
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:53:26.961
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 18:53:26.962
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:53:27.505
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 18:53:27.508
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:53.659
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:53.659
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:53.738
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:53.743
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:53.814
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:53.848
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:54.615
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:54.619
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:54.677
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:54.702
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:54.868
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:38:54.873
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:08.678
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:08.679
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:08.747
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:08.768
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:08.795
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:08.806
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:09.741
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:09.742
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:09.799
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:09.825
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:09.933
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:09.934
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:12.326
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:12.327
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:12.374
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:12.384
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:12.486
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:12.486
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:14.315
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:14.316
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:14.364
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:14.397
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:14.483
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:14.485
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:16.961
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:16.962
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:17.007
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:17.033
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:17.074
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:17.077
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:20.341
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:20.342
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:20.400
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:20.405
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:20.451
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:20.453
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:33.297
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:33.298
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:33.823
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:40:33.838
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:52.383
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:52.386
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:52.468
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:52.468
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:52.500
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:52.522
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:53.366
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:53.369
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:53.430
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:53.453
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:53.534
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:53.534
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:59.573
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:59.573
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:59.617
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:59.632
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:59.751
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:52:59.751
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:02.704
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:02.706
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:02.775
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:02.783
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:02.916
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:02.917
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:03.919
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:03.927
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:03.982
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:03.999
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:04.057
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 20:53:04.058
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 21:00:23.931
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 21:00:23.931
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 21:00:24.600
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 21:00:24.631
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 21:50:44.411
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 21:50:44.411
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 21:50:44.947
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 21:50:44.962
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 21:51:01.614
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 21:51:01.629
+!MESSAGE Has main method computation for project 'kdk-1'
+
+!ENTRY Activator 1 0 2021-08-13 21:51:02.187
+!MESSAGE Has main method computation for project 'kdk-2'
+
+!ENTRY Activator 1 0 2021-08-13 21:51:02.252
+!MESSAGE Has main method computation for project 'kdk-1'

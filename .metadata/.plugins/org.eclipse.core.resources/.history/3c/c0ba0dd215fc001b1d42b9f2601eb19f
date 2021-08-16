@@ -1,0 +1,21 @@
+package com.example.demo.kdk1;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class DineshService {
+@Autowired
+JdbcTempalate j;
+@Autowired
+NamedParameterJdbcTempalate d;
+
+public int insert(Dinesh e)
+{
+	String sql="insert into emp_info values(?,?,?)";
+	int emp_id=e.getEmp_name();
+	String emp_name=e.getEmp_name();
+	String emp_desig=e.getEmp_desig();
+	return jdbctempalate.Update(sql,emp_id,emp_name,emp_desig);
+}
+	
+}
+
