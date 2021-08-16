@@ -1,0 +1,31 @@
+package com.example.demo.crud;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
+
+@Service
+public class Scrud {
+	@Autowired
+JdbcTemplate jt;
+public int insert(@RequestBody Pcrud s)
+{
+	String sql="insert into itg140(name,email,phno)values(?,?,?)";
+	int i=jt.update(sql,s.getName(),s.getEmail(),s.getPhno());
+	return i;
+}
+public int delete(@RequestBody Pcrud s)
+{
+	String sql="delete from itg140 where id=?";
+	int i=jt.update(sql,s.getId());
+	return i;
+}
+public int update(@RequestBody Pcrud s)
+{
+	String sql="update itg140 set name=?,email=?,phno=? where id=?";
+	int i=jt.update(sql,s.getId(),s.getName(),s.getEmail(),s.getPhno());
+	return i;	
+}
+}
+

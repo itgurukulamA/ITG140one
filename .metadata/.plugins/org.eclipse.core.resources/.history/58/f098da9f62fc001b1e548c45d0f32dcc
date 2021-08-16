@@ -1,0 +1,48 @@
+package com.example.demo.crud;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Ccrud {
+@Autowired
+Scrud s;
+@PostMapping("/i")
+public String insert(@RequestBody Pcrud p)
+{
+	int i=s.insert(p);
+	if(i>0)
+	{
+		return "Data inserted";
+	}
+	else {
+		return "Insertion failed";
+	}
+}
+@PostMapping("/d")
+public String delete(@RequestBody Pcrud p)
+{
+	int i=s.delete(p);
+	if(i>0)
+	{
+		return "Data deleted";
+	}
+	else {
+		return "Deletion failed";
+	}
+}
+@PostMapping("/u")
+public String update(@RequestBody Pcrud p)
+{
+	int i=s.update(p);
+	if(i>0)
+	{
+		return "Data deleted";
+	}
+	else {
+		return "Deletion failed";
+	}
+}
+}

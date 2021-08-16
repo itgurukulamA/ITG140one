@@ -1,0 +1,6 @@
+package com.example.demo.crud;
+public class Pcrud {
+private int id;
+private String name,email;
+private long phno;
+}

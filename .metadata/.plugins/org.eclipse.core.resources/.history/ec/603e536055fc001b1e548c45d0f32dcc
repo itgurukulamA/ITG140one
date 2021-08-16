@@ -1,0 +1,12 @@
+package com.example.demo.crud;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Pcrud {
+private int id;
+private String name,email;
+private long phno;
+}
