@@ -3,4 +3,5 @@
 
 | SNO | BRANCH | NAME |
 | ----------- | ----------- | ----------- |
-| 1 | [Saikrishna](https://github.com/itgurukulamA/ITG140one/tree/SaikrishnaBendalam-5017) | Sai Krishna |
+| 1 | [Sai krishna](https://github.com/itgurukulamA/ITG140one/tree/SaikrishnaBendalam-5017) | Sai Krishna Bendalam |
+| 2 | [Dinesh Karri](https://github.com/itgurukulamA/ITG140one/tree/DineshKarri) | Dinesh Karri |
