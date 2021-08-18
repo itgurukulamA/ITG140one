@@ -1,9 +1,0 @@
-08-15-2021 00:03:42 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
-08-15-2021 00:03:57 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
-08-15-2021 00:04:18 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
-08-15-2021 00:05:36 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
-08-15-2021 00:07:33 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
-08-15-2021 00:11:20 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
-08-15-2021 00:12:21 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
-08-15-2021 00:12:40 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
-08-15-2021 00:14:24 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource

@@ -20,4 +20,34 @@ public String toString() {
             ", message='" + message + '\'' +
             '}';
 }
+public String getEmessage() {
+	return emessage;
+}
+public void setEmessage(String emessage) {
+	this.emessage = emessage;
+}
+public String getSubject() {
+	return subject;
+}
+public void setSubject(String subject) {
+	this.subject = subject;
+}
+public String getTo() {
+	return to;
+}
+public void setTo(String to) {
+	this.to = to;
+}
+public String getMessage() {
+	return message;
+}
+public void setMessage(String message) {
+	this.message = message;
+}
+public String getAttachname() {
+	return attachname;
+}
+public void setAttachname(String attachname) {
+	this.attachname = attachname;
+}
 }
