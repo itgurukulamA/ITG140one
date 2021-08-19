@@ -1,0 +1,10 @@
+package mapkdk;
+import java.util.*;
+public class methods {
+public static void main (String[] args)
+{
+	HashMap kd =new HashMap();
+	kd.put(1," kdl");
+	kd.put(2, "kdkm");
+}
+}

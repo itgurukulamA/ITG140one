@@ -1,0 +1,19 @@
+package exceptionkdk;
+import java.io.*;
+public class nullpointerexceptionkdk {
+
+		public static void main (String[] args)
+		{
+			String ptr = null;
+
+			try
+			{
+				System.out.print(ptr.length());	
+			}
+			catch(ArithmeticException e)
+			{
+				System.out.print("Caught NullPointerException");
+			}
+		}
+	}
+

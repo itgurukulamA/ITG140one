@@ -1,0 +1,22 @@
+package exceptionkdk;
+
+public class stringarrayout {
+	static String s="kd from from paturu";
+	public static void main(String[] args) {
+	try{    
+		System.out.println(s.charAt(4));
+		    try{    
+		     System.out.println("s.charAt(92)");    
+		         
+		   }  
+		    //catch block of inner try block 1  
+		    catch(Exception e)  
+		    {  
+		      System.out.println(e);  
+		    }    
+	}catch(StringIndexOutOfBoundsException e)
+	{
+	System.out.println(e);
+	}
+}
+}

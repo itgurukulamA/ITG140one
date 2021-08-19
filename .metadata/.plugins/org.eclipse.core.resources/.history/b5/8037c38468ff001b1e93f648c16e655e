@@ -1,0 +1,6 @@
+package exceptionkdk;
+
+young exception extends RuntimeException{
+	
+
+}

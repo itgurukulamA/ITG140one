@@ -1,0 +1,3 @@
+module exceptionkdk {
+	requires java.sql;
+}

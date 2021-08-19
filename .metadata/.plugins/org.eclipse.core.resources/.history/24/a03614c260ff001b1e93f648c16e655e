@@ -1,0 +1,22 @@
+package exceptionkdk;
+
+//import java.sql.DriverManager;
+
+public class classnotfoundkdk {
+
+	public static void main(String[] args) throws Exception{
+		try {
+	  Class.forName("com.mysql.cj.jdbc.Driver");
+        Connection con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/MSS","root","admin123");
+             
+        Statement stmt=con.createStatement();  
+ 
+		}
+		catch(ClassNotFoundException e)
+		e.printStackTrace
+		 
+
+	}
+
+}

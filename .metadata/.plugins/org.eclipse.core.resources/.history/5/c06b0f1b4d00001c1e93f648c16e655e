@@ -1,0 +1,13 @@
+import java.util.HashSet;
+import java.util.List;
+
+public class listkdk {
+	public static void main (String[] args)
+	{
+		HashSet<String> kdk = new HashSet<String>();
+		kdk.add("KDK");
+		kdk.add("cbn");
+	}
+	
+
+}

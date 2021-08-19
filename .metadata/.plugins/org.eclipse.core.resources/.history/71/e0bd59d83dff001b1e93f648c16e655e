@@ -1,0 +1,56 @@
+package strin;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class commoncharacter {
+
+	String s1="kdkdkd";
+	String s2="kdghKDK";
+
+	char[] d1 = s1.replaceAll("\\s+", "").toCharArray();
+
+	
+	char[] d2 = s2.replaceAll("\\s+", "").toCharArray();
+	
+	Set<Character> firstStringSet = new TreeSet<>();
+	
+	Set<Character> secondStringSet = new TreeSet<>();
+	
+	for (char S : d1) 
+	{
+		firstStringSet.add(S);
+	}
+	
+	for (char c : d2)
+	{
+		secondStringSet.add(c);
+	}
+	
+	firstStringSet.retainAll(secondStringSet);
+	
+	System.out.println("Common characters in alphabetical order : "+firstStringSet);
+	
+	System.out.println("Count : "+firstStringSet.size());
+}
+}
+/*public static void main(String[] args) 
+{
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("Enter two input strings :");
+	
+	String firstString = sc.nextLine();
+	
+	String secondString = sc.nextLine();
+	
+	printCommonChars(firstString, secondString);
+	
+	sc.close();
+}
+*/
+
+
+			
+
+	}*/
+

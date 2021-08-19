@@ -1,0 +1,23 @@
+package strin;
+
+public class A {
+
+		private static String reverse;
+
+		public static void main(String[] args){
+
+		String str ="paturuvbnnn";
+		String s2="";
+
+		char[] s1 = str.toCharArray();
+
+		for(int i=s1.length-1; i>=0; i--)
+		{
+ String rev=s2+s1[i];
+		System.out.print(s1[i]);
+		System.out.print(rev);
+
+		}
+
+		}
+}

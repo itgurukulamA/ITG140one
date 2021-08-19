@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Threadkdk {
+
+	public static void main(String[] args) {
+		
+ArrayList<String> k= new ArrayList<String>();
+k.add("kdk");
+k.add("samantha");
+   //System.out.println(k);
+for (String d:k)
+{
+	System.out.println("inter="+ +d);
+}
+
+	}
+
+}

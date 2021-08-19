@@ -1,0 +1,31 @@
+package thredskdk;
+
+//package thredskdk;
+public class Display {
+   public synchronized void wish(String name)Throws IE{
+         for(int i=0; i<10; i++){
+               System.out.println(“Good morning ”+name);
+               Thread.sleep(2000);
+         }
+   }
+}
+Class MyThread extends Thread{
+   Display d;
+   String name;
+   MyThread(Display d, String name){
+         this.d = d;
+         this.name = name;
+   }
+   Public void run(){
+         d.wish();
+   }  
+}
+Class MainDemo{
+   public static void main(String[] args)throws Exception{
+         Dispaly d = new Display();
+         MyThread thread1 = new MyThread(d,”Rama”);
+         MyThread thread2 = new MyThread(d,”Seetha”);
+         thread1.start();
+         thread2.start();
+   }
+}
