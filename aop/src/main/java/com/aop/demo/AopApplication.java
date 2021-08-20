@@ -1,13 +1,15 @@
-package com.example.demo;
+package com.aop.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
+@EnableAspectJAutoProxy(proxyTargetClass = true)
 @SpringBootApplication
-@EnableAspectJAutoProxy(proxyTargetClass=true)
-public class SecurityApplication {
+public class AopApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(SecurityApplication.class, args);
+		SpringApplication.run(AopApplication.class, args);
 	}
+
 }

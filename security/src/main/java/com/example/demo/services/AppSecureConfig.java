@@ -1,41 +1,59 @@
 package com.example.demo.services;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.security.web.util.matcher.RequestMatcher;
 import org.springframework.util.AntPathMatcher;
 
-//@Configuration
-//@EnableWebSecurity
+@Configuration
+@EnableWebSecurity
 
 public class AppSecureConfig extends WebSecurityConfigurerAdapter{
 	
-//	@Autowired
-//	private UserDetailsService userdetailsservice;
-//	@Bean
-//	public AuthenticationProvider authProvider() {
-//		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-//		provider.setUserDetailsService(userdetailsservice);
-//		provider.setPasswordEncoder(new BCryptPasswordEncoder());
-//		return provider;
-//	}
+	@Autowired
+	private UserDetailsService userdetailsservice;
+	@Autowired
+	private JwtRequestFilter jwtRequestFilter; 
+	@Bean
+	public AuthenticationProvider authProvider() {
+		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
+		provider.setUserDetailsService(userdetailsservice);
+		provider.setPasswordEncoder(new BCryptPasswordEncoder());
+		return provider;
+	}
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http
 		.csrf().disable()
-		.authorizeRequests().antMatchers("/login").permitAll()
-		.anyRequest().authenticated();
+		.authorizeRequests().antMatchers("/authenticate","/signup").permitAll()
+		.anyRequest().authenticated()
+		.and().sessionManagement()
+		.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+		http.addFilterBefore(jwtRequestFilter,UsernamePasswordAuthenticationFilter.class);
+	}
+	@Override
+	@Bean
+	public AuthenticationManager authenticationManagerBean() throws Exception{
+		return super.authenticationManagerBean();
 	}
 //	@Override
 //	protected void configure(HttpSecurity http) throws Exception {
@@ -53,7 +71,7 @@ public class AppSecureConfig extends WebSecurityConfigurerAdapter{
 //		.logoutSuccessUrl("/logout-success").permitAll();
 //	}
 	
-	//	@Bean
+//		@Bean
 //	@Override
 //	protected UserDetailsService userDetailsService() {
 //		
@@ -63,7 +81,7 @@ public class AppSecureConfig extends WebSecurityConfigurerAdapter{
 //		
 //		return new InMemoryUserDetailsManager(users);
 //	}
-	
-	
+//	
+//	
 	
 }
