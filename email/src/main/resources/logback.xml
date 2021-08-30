@@ -13,7 +13,7 @@
             <maxHistory>1560</maxHistory>
         </rollingPolicy>
     </appender>
-	<logger name="com.jdbc.Named" level="TRACE" />
+	<logger name="com.email.demo" level="TRACE" />
     <logger name="org.springframework.jdbc" level="TRACE" />
 	 <root level="WARN">
         <appender-ref ref="LogFile" />

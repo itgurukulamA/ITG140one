@@ -4,7 +4,8 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 public class Insert {
- static Logger Log =Logger.getLogger(Insert.class);
+ static Logger Log = Logger.getLogger(Insert.class);
+ 	
 	public static void main(String[] args) throws SQLException {
 		Connection con=null;
 		Scanner  s=new Scanner(System.in);
