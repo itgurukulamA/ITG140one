@@ -1,0 +1,9 @@
+package com.example.demo.generator;
+
+public class IdGenerator {
+	public static Integer getId(randomNum = minimum + (int)(Math.random() * maximum);
+) {
+		return 10;
+	}
+
+}

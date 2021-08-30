@@ -1,0 +1,14 @@
+package com.miracle.test;
+
+public class Cat {
+	public void Chew() {
+		System.out.println("Cat chew loudly");
+		
+	}
+	public static void main(String[] args) {
+		Dog d1=new Dog();
+		d1.bark();
+		Dog d2=new Cat();
+	}
+
+}

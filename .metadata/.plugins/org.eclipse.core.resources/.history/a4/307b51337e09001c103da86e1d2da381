@@ -1,0 +1,41 @@
+package com.example.demo.test;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+@Data
+@Entity
+@Table(name="q123")
+public class Question {
+	public Question(int id, String qname, List<Answer> answer) {
+		super();
+		this.id = id;
+		this.qname = qname;
+		this.answer = answer;
+	}
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.TABLE)
+	private int id;
+	private String qname;
+	
+	private List<Answer> answer;
+	
+	public Question(int id, String qname) {
+		super();
+		this.id = id;
+		this.qname = qname;
+	}
+	
+	
+
+}
+
+
+

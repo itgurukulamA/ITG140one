@@ -1,0 +1,30 @@
+package com.miracle.conn;
+
+import java.util.Scanner;
+
+public class ReverseWord {
+
+	public static void main(String[] args) {
+		String str="";
+		System.out.println("Enter a String");
+		Scanner sc=new Scanner(System.in);
+		String  name=sc.nextLine();
+		sc.close();
+		String reversed=reverseDemo(str);
+		
+	}
+	public String reverseDemo(String s) {
+		if(s.isEmpty()) {
+			
+		return s;
+		return reverseDemo(s.substring(1)+s.charAt(0));
+		
+		
+	
+		
+				
+		
+
+	}
+
+}

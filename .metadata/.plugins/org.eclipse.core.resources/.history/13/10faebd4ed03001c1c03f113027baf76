@@ -1,0 +1,12 @@
+package com.miracle.test;
+
+public class Dog {
+
+	public static void main(String[] args) {
+		Dog d1=new Dog();
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

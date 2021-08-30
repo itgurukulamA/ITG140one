@@ -1,0 +1,14 @@
+package com.miracle.test;
+
+public class AbstraEx {
+	abstract void m1() {
+		System.out.println("abstract void  m1()");
+	}
+
+	public static void main(String[] args) {
+		
+	
+
+	}
+
+}

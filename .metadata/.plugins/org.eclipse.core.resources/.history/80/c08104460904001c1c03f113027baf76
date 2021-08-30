@@ -1,0 +1,28 @@
+package com.miracle.test;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.sql.SQLException;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		
+		Employee e1=new Employee("chirasmita", 101);
+		String fileName="abc.txt";
+		try {
+			FileOutputStream f12=new FileOutputStream("abc.txt");//saving of object in file
+			ObjectOutputStream obj1=new ObjectOutputStream(f12);
+			obj1.writeObject(e1);
+			obj1.close();
+			f12.close();
+		}
+		catch(SQLException se) {
+			System.out.println(se);
+			
+			
+		}
+
+	}
+
+}

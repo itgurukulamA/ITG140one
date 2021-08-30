@@ -1,0 +1,24 @@
+package com.example.demo;
+
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.demo.entity.User;
+import com.example.demo.repo.userRepositiory;
+
+@SpringBootApplication
+public class SpringDataJpaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringDataJpaApplication.class, args);
+		List<User> users=userRepositiory.findByName("sony");
+		List<User> users1=userRepositiory.findByNameAndCity("sonu","abc");
+		users.forEach(e->System.out.println(e));
+		List<User> allUser=userRepositiory.getAllUser();
+		allUser.forEach(e);
+		
+
+}
+}

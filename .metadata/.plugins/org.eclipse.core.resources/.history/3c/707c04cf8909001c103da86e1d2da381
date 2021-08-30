@@ -1,0 +1,21 @@
+package com.example.demo.test;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class OneToMany {
+	@Autowired UserRepositiory obj;
+	
+	@PostMapping("/add")
+	public String Hi(@RequestBody Question obj1) {
+		obj.save(obj1);
+		return "data store successfully";
+		
+		
+	
+	}
+
+}

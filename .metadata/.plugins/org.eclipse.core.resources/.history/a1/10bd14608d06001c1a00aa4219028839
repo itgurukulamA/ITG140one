@@ -1,0 +1,27 @@
+package com.example.demo.mapping;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class OneToOneExample {
+
+	public static void main(String[] args) {
+		EntityManagerFactory emf=Persistence.createEntityManagerFactory("Book_Issued");
+		EntityManager em=emf.createEntityManager();
+		em.getTransaction().begin();
+		
+		Student s1=new Student(1, "sonu");
+		s1.setS_id(1);
+		
+		s1.setS_name("chirasmita");
+
+		Student s2=new Student(2, "monu");
+		s1.setS_id(1);
+		
+		s1.setS_name("chirasmita");
+		em.persist(s2);
+		em.persist(s1);
+
+}
+}

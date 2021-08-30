@@ -1,0 +1,15 @@
+package com.example.demo.Test;
+
+import java.util.List;
+
+public class Employees {
+
+	private List<Employee> employeeList;
+	public List<Employee> getEmployeeList(){
+		if(employeeList!=null) {
+			employeeLis=new ArrayList<>();
+		}
+		return employeeList;
+		
+	}
+}

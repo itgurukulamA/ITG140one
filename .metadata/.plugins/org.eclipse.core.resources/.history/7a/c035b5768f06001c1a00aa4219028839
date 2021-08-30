@@ -1,0 +1,19 @@
+    <persistence>  
+  //  <persistence-unit name="Book_issued">  
+         
+          <class>com.example.demo.mapping.Student</class>  
+          <class>com.example.demo.mapping.Library</class>  
+          
+      
+            
+         <properties>  
+          <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>  
+             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mapping_db"/>  
+             <property name="javax.persistence.jdbc.user" value="root"/>  
+             <property name="javax.persistence.jdbc.password" value="password"/>  
+             <property name="eclipselink.logging.level" value="SEVERE"/>  
+             <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>  
+          </properties>  
+          
+        </persistence-unit>  
+    </persistence>  

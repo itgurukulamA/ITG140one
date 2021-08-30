@@ -1,0 +1,15 @@
+package com.miracle.test;
+
+public abstract  class AbstraEx {
+	abstract void m1() ;
+	void m2() {
+		System.out.println("Abstrex m2()");
+	}
+
+	public static void main(String[] args) {
+		
+	
+
+	}
+
+}

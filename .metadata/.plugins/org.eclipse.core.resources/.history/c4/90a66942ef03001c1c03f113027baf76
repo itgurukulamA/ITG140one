@@ -1,0 +1,18 @@
+package com.miracle.test;
+
+public class Cat {
+	public void bark() {
+		System.out.println("Cat bark loudly");
+		
+	}
+	public static void main(String[] args) {
+		Dog d1=new Dog();
+		d1.bark();//ststic binding
+		Dog d2=new Cat();
+		d2.bark();
+		
+		//Dog d2=new Cat();
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.miracle.test3;
+
+import java.io.ObjectOutputStream;
+
+public class FileEx {
+
+	public static void main(String[] args) {
+		
+		//@SpringzbootApplication is a combination of @EnableScan,@
+		//In ObjectInputStream readFloat(),readByte(),readLomg(),redLine(),readChar(),avaliable(), ,close(),
+		String str="Hello";
+		byte[] barray= {'j','a','v','a','t','p'	};
+	FileOutputStream fis=new FileOuputStream("file1.txt");
+	ObjectOutputStream ois=new ObjectOutputStream(fis);
+	
+
+}

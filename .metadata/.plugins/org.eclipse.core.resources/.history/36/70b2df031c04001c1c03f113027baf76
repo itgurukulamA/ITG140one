@@ -1,0 +1,16 @@
+package com.miracle.conn;
+
+//import java.util.Scanner;
+
+public class Sample12 {
+
+	public static void main(String[] args) {
+		System.out.println("Enter a String");
+		String input="hi welcome to java";
+		String[] arr=input.split(" ");
+		
+		
+		
+	}
+
+}

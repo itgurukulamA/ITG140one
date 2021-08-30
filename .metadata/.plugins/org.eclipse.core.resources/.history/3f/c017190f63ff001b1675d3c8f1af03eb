@@ -1,0 +1,19 @@
+package com.miracle.test;
+
+public class FinallyBlockex {
+
+	public static void main(String[] args) {
+		try {
+			int a=10/0;
+			System.out.println("hi");
+		}
+		catch(ArithmeticException ae) {
+			System.out.println(ae);
+		}
+		finally {
+			System.out.println("finally block will execute definitely");
+		}
+		System.out.println("rest of code");
+	}
+
+}

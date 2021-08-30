@@ -1,0 +1,12 @@
+package com.example.demo.Test;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+@RequestMapping(path="/employees")
+
+public class EmployeeController {
+	private EmployeeDao employeeDao;
+	
+
+}

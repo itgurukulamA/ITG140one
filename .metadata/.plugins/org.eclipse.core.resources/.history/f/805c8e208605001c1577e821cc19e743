@@ -1,0 +1,11 @@
+package com.example.demo.generator;
+
+public class IdGenerator {
+	public static Integer getId() {
+		 int randomNum = rand.nextInt((max - min) + 1) + min;
+
+		    return randomNum;
+		return 10;
+	}
+
+}

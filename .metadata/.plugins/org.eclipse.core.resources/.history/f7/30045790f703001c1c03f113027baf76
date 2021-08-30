@@ -1,0 +1,31 @@
+package com.miracle.test;
+
+public abstract class Demo1 {
+	abstract void m1();
+
+	void m2() {
+		System.out.println("Abstrex m2()");
+	}
+
+	static void m3() {
+		System.out.println("m3()");
+	}
+
+}
+
+class Demo1 extends Demo {
+
+	@Override
+	void m1() {
+		System.out.println("Demo m1()");
+	}
+
+	public static void main(String[] args) {
+		Demo d1 = new Demo();
+		d1.m1();// Demo m1()
+
+		d1.m2();// Abstracex m2()
+		d1.m3();// m3()
+	}
+
+}

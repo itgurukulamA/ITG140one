@@ -1,0 +1,33 @@
+package com.miracle.test;
+
+public class NextedTryEx {
+
+	public static void main(String[] args) {
+		try {
+			try {
+				System.out.println("divided by zero");
+				int i=30/0;
+				
+			}
+			catch(ArithmeticException ae) {
+				System.out.println(ae);
+			}
+			try {
+				int a[]=new int[6];
+				a[5]=9;
+			}
+			catch(ArithmeticException ae) {
+				ae.printStackTrace();
+			
+			System.out.println("other stmts");
+			}
+			System.out.println("other stmts");
+			
+		
+		}
+
+	}
+}
+}
+
+}

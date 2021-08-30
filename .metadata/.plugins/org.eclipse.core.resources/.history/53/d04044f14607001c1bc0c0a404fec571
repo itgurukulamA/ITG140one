@@ -1,0 +1,9 @@
+import org.testng.annotations.Test;
+
+public class Test01Get {
+	@Test
+	void test_o1() {
+		
+	}
+
+}

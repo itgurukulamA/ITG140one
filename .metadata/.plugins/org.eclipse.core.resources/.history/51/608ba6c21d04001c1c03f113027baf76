@@ -1,0 +1,27 @@
+package com.miracle.conn;
+
+//import java.util.Scanner;
+
+public class Sample12 {
+
+	public static void main(String[] args) {
+		System.out.println("Enter a String");
+		String input="hi welcome to java";
+		System.out.println("Original  String:"+input);
+		String[] words=input.split(" ");
+		String output="";
+		System.out.println("splited string:"+words);
+		for(String word:words) {
+			String reverseWord="";
+			for(int i=input.length()-1;i>=0;i--) {
+				reverseWord=reverseWord+word.charAt(i);
+				
+			}
+			output=output+reverseWord+"";
+		}
+		
+		
+		
+	}
+
+}

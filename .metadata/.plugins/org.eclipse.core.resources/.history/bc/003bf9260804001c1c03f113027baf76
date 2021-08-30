@@ -1,0 +1,19 @@
+package com.miracle.test;
+
+import java.io.FileOutputStream;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		
+		Employee e1=new Employee("chirasmita", 101);
+		String fileName="abc.txt";
+		try {
+			FileOutputStream f12=new FileOutputStream("abc.txt");//saving of object in file
+			
+			
+		}
+
+	}
+
+}

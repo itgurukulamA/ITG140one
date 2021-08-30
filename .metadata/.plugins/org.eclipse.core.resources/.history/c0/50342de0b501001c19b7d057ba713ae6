@@ -1,0 +1,8 @@
+package com.miracle.test3;
+//object to XML
+//xml to object
+//
+
+public class JAXB_Class {
+
+}

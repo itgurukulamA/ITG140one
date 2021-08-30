@@ -1,0 +1,33 @@
+package com.miracle.test;
+
+ abstract class Bike {
+	 Bike(){
+		 System.out.println("Bike construcotr");
+	 }
+	 abstract void run() ;
+	 void changeGear() {
+		 System.out.println("gear changed");
+	 }
+	 
+
+}
+ class Honda extends Bike {
+
+	@Override
+	void run() {
+		System.out.println("honda run very firstly");
+		
+	}
+	
+	 
+ }
+ class Test{
+	 public static void main(String[] args) {
+		Bike b2=new Honda();
+		b2.run();
+		b2.changeGear();
+		
+	
+		
+	}
+ }

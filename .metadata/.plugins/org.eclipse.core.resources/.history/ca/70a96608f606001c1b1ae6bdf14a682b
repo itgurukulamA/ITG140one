@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import java.lang.module.Configuration;
+
+import org.hibernate.SessionFactory;
+
+public class MapTable {
+	public static void main(String[] args) {
+		Configuration cfg=new Configuration();
+		cfg.configure("hibernatecfg.xml");
+		SessionFactory factory=cfg.buildSessionFactory();
+		
+		
+	}
+
+}

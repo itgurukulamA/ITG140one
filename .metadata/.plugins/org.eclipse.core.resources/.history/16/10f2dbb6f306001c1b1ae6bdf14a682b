@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
+public class Question {
+	@Id
+	@Column(name="question_id")
+	private int questionid;
+	private int question;
+	@OneToOne
+	private Answer answer;
+	
+
+}

@@ -1,0 +1,31 @@
+package com.example.demo.repo;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.demo.entity.User;
+
+public interface userRepositiory extends CrudRepository<User, Integer>{
+	public static List<User> findByName (String name) {
+		String a ="dfg";
+		// TODO Auto-generated method stub
+		return a;
+	}
+	public static List<User> findByNameAndCity(String name,String  city) {
+		// TODO Auto-generated method stub
+		return null;
+	}	
+	
+	@Query("select u from User u	")
+	public static List<User> getAllUser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+		
+	}
+	
+
+

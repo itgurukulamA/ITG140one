@@ -1,0 +1,10 @@
+package com.example.demo.generator;
+import java.util.Random;
+public class IdGenerator {
+	public Integer getId() {
+		 int randomNum = rand.nextInt((max - min) + 1) + min;
+
+		    return randomNum;
+	}
+	
+}

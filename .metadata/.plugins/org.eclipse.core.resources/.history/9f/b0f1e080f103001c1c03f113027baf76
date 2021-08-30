@@ -1,0 +1,17 @@
+package com.miracle.test;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		
+		Test4 t1=new Test4();
+		Test4 t2=new Test4();
+		System.out.println(t1 instanceof Test4);
+		System.out.println(t2 instanceof Test4);//instanceof operator will check wheteher the object is an specified class or inerface type or not.
+		
+		
+		
+
+	}
+
+}

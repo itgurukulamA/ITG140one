@@ -1,0 +1,12 @@
+package com.miracle.conn;
+
+public class Reverse1{
+	public static void main(String[] args) {
+		String s1="chirasmita";
+		String reversestr="";
+		String len=s1.length();
+		for(int i=str)
+		
+	}
+
+}
